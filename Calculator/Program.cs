@@ -6,7 +6,9 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 42, b = 119, c = a + b;
+            Console.WriteLine(c);
+            Console.ReadKey();
         }
     }
 }
